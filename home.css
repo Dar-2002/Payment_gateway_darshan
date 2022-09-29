@@ -84,7 +84,21 @@ main {
 }
 
 .first-heading {
-    font-size: 3em;
+    font-size: 2.5rem;
+    border: solid 4px red;
+    padding: 2rem;
+    /* padding:10% ; */
+    /* height:100%; */
+    /* width:800px; */
+    background-color: rgba(235, 203, 248, 0.7);
+    color:rgb(99, 3, 96);
+    border-radius: 20px;
+    /* border: solid black 2px; */
+}
+.first-heading:hover{
+    background-color: #fca211;
+    color: black;
+    border: solid 5px black;
 }
 
 .first-subtext {
